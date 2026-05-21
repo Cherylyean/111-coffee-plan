@@ -1,0 +1,440 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="zh-CN" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>111 Plan | Shuang Hor Malaysia</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#705a4c",
+                        "on-secondary-fixed-variant": "#5d4201",
+                        "on-error-container": "#93000a",
+                        "on-background": "#1c1c1a",
+                        "inverse-primary": "#dec1af",
+                        "on-tertiary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "on-secondary-container": "#785a1a",
+                        "surface-dim": "#dcd9d7",
+                        "tertiary-container": "#492609",
+                        "outline": "#81756e",
+                        "secondary-fixed-dim": "#e9c176",
+                        "on-surface-variant": "#4f453f",
+                        "on-surface": "#1c1c1a",
+                        "surface-container": "#f0edea",
+                        "inverse-surface": "#31302f",
+                        "on-secondary-fixed": "#261900",
+                        "primary-container": "#3d2b1f",
+                        "secondary-fixed": "#ffdea5",
+                        "inverse-on-surface": "#f3f0ed",
+                        "on-primary-fixed-variant": "#574335",
+                        "surface-container-high": "#eae8e5",
+                        "background": "#fcf9f6",
+                        "on-primary-fixed": "#28180d",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed-dim": "#f4bb92",
+                        "primary-fixed": "#fbddca",
+                        "primary-fixed-dim": "#dec1af",
+                        "tertiary-fixed": "#ffdcc5",
+                        "tertiary": "#2e1300",
+                        "on-primary-container": "#ac9181",
+                        "on-tertiary-fixed": "#301400",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#fed488",
+                        "surface-bright": "#fcf9f6",
+                        "on-tertiary-container": "#bf8c66",
+                        "surface": "#fcf9f6",
+                        "surface-container-highest": "#e5e2df",
+                        "on-tertiary-fixed-variant": "#653d1e",
+                        "surface-container-low": "#f6f3f0",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#d2c4bc",
+                        "primary": "#26170c",
+                        "surface-variant": "#e5e2df",
+                        "secondary": "#775a19",
+                        "on-primary": "#ffffff",
+                        "on-secondary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-max": "1200px",
+                        "stack-md": "40px",
+                        "gutter": "32px",
+                        "base": "12px",
+                        "section-padding": "100px",
+                        "stack-sm": "20px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Public Sans"],
+                        "label-caps": ["Public Sans"],
+                        "title-sm": ["Public Sans"],
+                        "body-base": ["Public Sans"],
+                        "display-lg": ["Public Sans"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["40px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "label-caps": ["14px", {"lineHeight": "1", "letterSpacing": "0.06em", "fontWeight": "700"}],
+                        "title-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                        "body-base": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "display-lg": ["56px", {"lineHeight": "1.1", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Public Sans', sans-serif; background-color: #fcf9f6; font-size: 18px; }
+    </style>
+</head>
+<body class="text-on-background antialiased">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 border-b bg-white border-stone-200">
+<nav class="flex justify-between items-center h-24 px-8 max-w-[1200px] mx-auto">
+<div class="text-2xl font-bold tracking-tight text-[#3D2B1F] uppercase">111 咖啡计划</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-amber-600 font-bold border-b-2 border-amber-600 pb-1 font-['Public_Sans'] text-base tracking-wide" href="#home">首页</a>
+<a class="text-stone-600 font-medium hover:text-[#3D2B1F] transition-opacity duration-200 font-['Public_Sans'] text-base tracking-wide" href="#problem">CEO Coffee</a>
+<a class="text-stone-600 font-medium hover:text-[#3D2B1F] transition-opacity duration-200 font-['Public_Sans'] text-base tracking-wide" href="#solution">111咖啡计划</a>
+<a class="text-stone-600 font-medium hover:text-[#3D2B1F] transition-opacity duration-200 font-['Public_Sans'] text-base tracking-wide" href="#earnings">我的故事</a>
+<a class="text-stone-600 font-medium hover:text-[#3D2B1F] transition-opacity duration-200 font-['Public_Sans'] text-base tracking-wide" href="#faq">FAQ</a>
+</div>
+<a href="https://wa.link/ze2588" target="_blank" class="bg-[#26170c] text-white px-8 py-3 text-base font-bold active:scale-95 transition-transform inline-block"><p data-start="448" data-end="456" class="">【免费了解111咖啡计划】</p></a>
+</nav>
+</header>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative bg-surface-container-low py-32 overflow-hidden" id="home">
+<div class="max-w-[1200px] mx-auto px-8 grid lg:grid-cols-2 gap-16 items-center">
+<div class="z-10">
+<span class="text-secondary font-label-caps uppercase tracking-widest mb-6 block">换上更健康的咖啡品牌，<br>
+从消费者开始，建立额外收入机会。</span>
+<h1 class="text-display-lg font-display-lg text-primary mb-10 leading-tight"><strong data-start="605" data-end="616">换个咖啡品牌，</strong><br>
+<strong data-start="617" data-end="629">多一个收入来源。</strong></h1>
+<div class="flex flex-col sm:flex-row gap-6">
+<a href="https://wa.link/ze2588" target="_blank" class="bg-primary text-on-primary px-10 py-5 text-lg font-bold flex items-center justify-center gap-3 hover:opacity-90 transition-all">
+<span class="material-symbols-outlined text-2xl">chat</span>
+                        【免费了解111咖啡计划】
+                    </a>
+
+</div>
+</div>
+<div class="relative">
+<div class="absolute inset-0 bg-secondary-container/20 rounded-full blur-3xl"></div>
+<img alt="Shuang Hor Coffee Selection" class="relative z-10 w-full h-auto object-cover rounded shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBq_q3IAA9QHgBlThR-HljjK6SVe6SUwtVRIKDxjZ2TM556mFGFxXk_QmY49fOt0OGmF3JmX4ikEg_QKFH1zEZ6iEID116X8prTMHli9pfHgdGIcBLpXic5XyYKlMRTGCNohQCBV-FxA2oCuIbWo7QmatUu0haM0uSMn3R7pEnCf8Ux99EOXFwRgCUZ4eOqydmaD4y9DI15Dv9KNZvrpA1kimbEFVPa89sSirKWbO9qJlF5DYP8U9PRLd2MT8j38k_u0UNXcehXAIk">
+</div>
+</div>
+</section>
+<!-- Problem Section -->
+<section class="py-24 bg-white" id="problem">
+<div class="max-w-[1200px] mx-auto px-8">
+<div class="text-center mb-20">
+<h2 class="text-headline-md font-headline-md text-primary mb-6">面对现实的挑战</h2>
+<p class="text-on-surface-variant text-xl max-w-3xl mx-auto">在追求更好生活的路上，我们常遇到这些问题：</p>
+</div>
+<div class="grid md:grid-cols-3 gap-10">
+<!-- Column 1 -->
+<div class="p-10 border border-outline-variant bg-surface-container-lowest">
+<span class="material-symbols-outlined text-secondary text-5xl mb-6">coffee</span>
+<h3 class="text-title-sm font-title-sm mb-6">每天都在喝咖啡</h3>
+<p class="text-on-surface-variant text-body-base leading-relaxed"></p><p data-start="331" data-end="343" class="">但只是消费，没有任何回馈</p><br class="">
+<p data-start="345" data-end="369" class="">很多人每天都会买咖啡，<br>
+长期下来是一笔固定开销。</p><p></p>
+</div>
+<!-- Column 2 -->
+<div class="p-10 border border-outline-variant bg-surface-container-lowest">
+<span class="material-symbols-outlined text-secondary text-5xl mb-6">health_and_safety</span>
+<h3 class="text-title-sm font-title-sm mb-6">想照顾健康</h3>
+<p class="text-on-surface-variant text-body-base leading-relaxed"></p><p data-start="390" data-end="399" class="">却不知道从哪里开始<br class=""><br class=""></p>
+<p data-start="401" data-end="423" class="">忙于工作与家庭，<br>
+往往忽略了自己的健康管理。</p><p></p>
+</div>
+<!-- Column 3 -->
+<div class="p-10 border border-outline-variant bg-surface-container-lowest">
+<span class="material-symbols-outlined text-secondary text-5xl mb-6">business_center</span>
+<h3 class="text-title-sm font-title-sm mb-6">想增加收入</h3>
+<p class="text-on-surface-variant text-body-base leading-relaxed"></p><p data-start="444" data-end="456" class="">却担心投入太高、风险太大<br><br class=""></p>
+<p data-start="458" data-end="479" class="">开店、囤货、加盟，<br>
+都需要不少资金与时间。</p><p></p>
+</div>
+</div>
+</div>
+</section>
+<!-- Solution & Authority Section -->
+<section class="py-24 bg-surface-container" id="solution">
+<div class="max-w-[1200px] mx-auto px-8">
+<div class="grid lg:grid-cols-2 gap-20 items-center mb-32">
+<div class="order-2 lg:order-1">
+<h2 class="text-headline-md font-headline-md text-primary mb-8">39年品牌实力，全马支援</h2>
+<p class="text-on-surface-variant text-xl mb-10 leading-relaxed">
+                        双鹤（Shuang Hor）自1987年创立以来，已在马来西亚稳健经营39年。。我们在 KL, PG, JB, KK ，拥有四大实体制运营中心，为您提供最坚实、最透明的企业背景支持，创业无后顾之忧。
+                    </p>
+<div class="grid grid-cols-2 gap-6">
+<div class="bg-white p-6 text-center border border-outline-variant">
+<span class="block text-primary font-bold text-lg">Kuala Lumpur</span>
+</div>
+<div class="bg-white p-6 text-center border border-outline-variant">
+<span class="block text-primary font-bold text-lg">Penang</span>
+</div>
+<div class="bg-white p-6 text-center border border-outline-variant">
+<span class="block text-primary font-bold text-lg">Johor Bahru</span>
+</div>
+<div class="bg-white p-6 text-center border border-outline-variant">
+<span class="block text-primary font-bold text-lg">Kota Kinabalu</span>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<img alt="Corporate Center" class="rounded shadow-xl w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1AFWk7RuSj6ciHAwePgB4DIjQ_lg89FTS6rXm9OOITqXIWmyHcca25iT6mKB3pvrxP-37kdIBghPHp_BwBBbV5urwiSPpjMWucpVv3Dvz-z61FLMhF-bC-nyv_SjHC8LFEUsriWdVSJwmLzdyNwgbcJg5izuPD2uPRq-qICDRptpNeAjnu_A6_vJe1WQ2CCj0yVF8pm720AQ88_CJxUIugWTAUV111jH-50-3dkW2AHJHe_951g4sfbAQmNd6gTtG3Y60AHL9kIx_uQ">
+</div>
+</div>
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div>
+<img alt="Premium Ingredients" class="rounded shadow-xl w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoZkfsRxwJ03tWAXsUXr8yUPtUXeKJK1FKBq77NozIHiCMz5e9EvaQvTyIHQVBAcwFf29JzCvlXnrzOK_myRbi6EH6_UNQ7ejqTZe8jK-qM_hTHJ0UY9S7AALijn_U2d1fmzelieaLmIOza2DlMEtDd9WPfOlnE8TamvchgKqiC5LSNUGok7gXBPBDYvckWcGLwSqC8aeNNjXBrR5V3qh1U7Jkv3hI-WJKj4_LCraTw87bxzYdYZrxKYIZQJlTGUGVdW07lv0XvvNc1g">
+</div>
+<div>
+<h2 class="text-headline-md font-headline-md text-primary mb-8">纯天然成分，极简配方</h2>
+<p class="text-on-surface-variant text-xl mb-10 leading-relaxed">
+                        我们的咖啡采用特级咖啡豆，融合极品灵芝（Lingzhi）与天然椰子油（Coconut Oil）。坚持简洁配方，不添加人工香精与反式脂肪来源奶精，并通过多项品质与安全认证。
+                    </p>
+<ul class="space-y-6">
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">verified</span>
+<span class="font-medium text-xl">GMP 认证生产标准</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">verified</span>
+<span class="font-medium text-xl">JAKIM Halal 认证</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">verified</span>
+<span class="font-medium text-xl">100% 纯天然灵芝萃取</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- The 111 Plan Section -->
+<section class="py-24 bg-primary text-on-primary" id="earnings">
+<div class="max-w-[1200px] mx-auto px-8">
+<div class="text-center mb-20">
+<h2 class="text-headline-md font-headline-md mb-6">111咖啡计划：1盒 × 1位 × 1年</h2>
+<p class="text-on-primary-container text-xl max-w-3xl mx-auto">从消费开始，透过简单分享，逐步建立额外收入来源。</p>
+</div>
+<div class="grid md:grid-cols-4 gap-10 mb-24">
+<div class="bg-primary-container p-10 text-center border border-on-primary-container/20">
+<div class="text-5xl font-bold text-secondary-fixed mb-4">1</div>
+<div class="text-base uppercase tracking-widest mb-6">每月一盒</div>
+<p class="text-on-primary-container text-body-base">自己先喝</p>
+</div>
+<div class="bg-primary-container p-10 text-center border border-on-primary-container/20">
+<div class="text-5xl font-bold text-secondary-fixed mb-4">1</div>
+<div class="text-base uppercase tracking-widest mb-6">每月一位</div>
+<p class="text-on-primary-container text-body-base">分享给一位朋友</p>
+</div>
+<div class="bg-primary-container p-10 text-center border border-on-primary-container/20">
+<div class="text-5xl font-bold text-secondary-fixed mb-4">1</div>
+<div class="text-base uppercase tracking-widest mb-6">坚持一年</div>
+<p class="text-on-primary-container text-body-base">持续累积成果</p>
+</div>
+<div class="bg-primary-container p-10 text-center border border-secondary-container">
+<div class="text-4xl font-bold text-secondary-container mb-4">RM12,000</div>
+<div class="text-base uppercase tracking-widest mb-6">一年后模型推算<br>潜在月收入</div>
+<p class="text-on-primary-container text-sm">*收入仅为示意<br>实际因个人经营情况而异</p>
+</div>
+</div>
+<div class="mt-32">
+<div class="text-center mb-16">
+<span class="block text-secondary-fixed font-bold text-lg mb-4">从消费者开始，而不是从销售开始</span>
+<h2 class="text-display-lg font-bold text-on-primary mb-8">我是如何从消费者开始的？</h2>
+</div>
+<div class="grid lg:grid-cols-2 gap-16 items-center bg-primary-container p-12 rounded-xl">
+<div class="aspect-[3/4] overflow-hidden rounded-lg shadow-2xl">
+<img alt="Cheryl Hew" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIA66qd7euBJxiCboAsuOka6vhiSFwSPjzNR5ljB0KzAqPQKTJki2q1oxBRUHXvmbyxNr-35qRGZe2RH8v2lKxEP9fyln-oTftfmugRrh0GBOrJHx_MVj_ffuh46oRMB27kwDKxIi1GZeDVebLQfGNcZssxNQpdOinhSDUGvX2PXroOEI2r9thbeq-sRpzgyre9n1KT94_VcLyFJ6GBzckn9NvTFUsb_VWlKlXFN0TmiYdnIEAp4Up9YZ-WBml7clk0k0kNp8-jqw"><div class="mt-4 flex justify-center">
+    <span class="px-3 py-1 bg-surface-container-low text-on-surface-variant text-sm font-medium rounded-sm border border-outline-variant/30 tracking-wide">
+        ☕ 从消费者开始的分享者
+    </span>
+</div>
+</div>
+<div class="flex flex-col justify-center">
+<div class="text-on-primary-container text-body-base leading-relaxed space-y-6">
+<p class="">2025年，我从80kg减到63kg。<br data-start="238" data-end="241">
+当初接触双鹤，只是因为喜欢喝咖啡，从没想过有一天会把它变成我的第二收入来源。</p>
+<p class="">后来我开始学习饮食管理、健康知识和更好的生活习惯，也认识了一群积极向上、愿意一起成长的伙伴。</p>
+<p class="">我喜欢111咖啡计划的原因很简单：</p>
+<div class="grid grid-cols-2 gap-4 font-bold">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed">check_circle</span>
+<span class="">从自用开始</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed">check_circle</span>
+<span class="">无需囤货</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed">check_circle</span>
+<span class="">无需大笔投资</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed">check_circle</span>
+<span class="">按自己的节奏分享</span>
+</div>
+</div>
+<p class="text-lg"><strong class="text-lg">对我来说，这不只是一杯咖啡，更是一种更健康、更积极的生活方式，也让我看见长期累积的力量。</strong></p>
+</div>
+<div class="mt-12 pt-8 border-t border-on-primary-container/20">
+<p class="text-xl font-bold text-secondary-fixed tracking-wide text-lg">Cheryl Hew｜从消费者开始</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Membership Offer -->
+<section class="py-24 bg-white">
+<div class="max-w-[900px] mx-auto px-8 border-4 border-secondary p-16 text-center">
+<span class="text-secondary font-bold uppercase tracking-[0.25em] mb-6 block text-lg">Limited Time Offer</span>
+<h2 class="text-headline-md font-headline-md text-primary mb-8">从每天喝的咖啡开始，开启额外收入机会</h2>
+<div class="flex flex-wrap justify-center gap-10 mb-12 text-left">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-green-600 text-3xl">check_circle</span>
+<span class="font-bold text-xl">RM0入会费</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-green-600 text-3xl">check_circle</span>
+<span class="font-bold text-xl">无需大笔投资</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-green-600 text-3xl">check_circle</span>
+<span class="font-bold text-xl">专业团队指导</span>
+</div>
+</div>
+<p class="text-on-surface-variant text-xl mb-12 leading-relaxed">第二年起仅需 RM10 年费<br>
+                从自己开始，按自己的节奏分享，无需囤货压力</p>
+<a href="https://wa.link/ze2588" target="_blank" class="bg-[#26170c] text-white px-14 py-6 text-xl font-bold hover:scale-105 transition-transform inline-block">👉 <strong data-start="453" data-end="470">【立即了解111咖啡计划】</strong></a>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 bg-surface-container-low" id="faq">
+<div class="max-w-[900px] mx-auto px-8">
+<h2 class="text-headline-md font-headline-md text-primary mb-16 text-center">常见问题 FAQ</h2>
+<div class="space-y-6">
+<details class="bg-white border border-outline-variant group">
+<summary class="flex justify-between items-center p-8 cursor-pointer font-bold text-primary text-xl list-none">
+                        真的不需要入会费吗？
+                        <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-3xl">expand_more</span>
+</summary>
+<div class="px-8 pb-8 text-on-surface-variant text-body-base">是的，目前通过111咖啡计划加入，可享RM0入会费优惠，轻松开启会员资格。</div>
+</details>
+<details class="bg-white border border-outline-variant group">
+<summary class="flex justify-between items-center p-8 cursor-pointer font-bold text-primary text-xl list-none">
+                        我需要囤货在家吗？
+                        <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-3xl">expand_more</span>
+</summary>
+<div class="px-8 pb-8 text-on-surface-variant text-body-base">完全不需要。产品由公司统一配送，您无需囤货、备货或处理物流问题。</div>
+</details>
+<details class="bg-white border border-outline-variant group">
+<summary class="flex justify-between items-center p-8 cursor-pointer font-bold text-primary text-xl list-none">
+                        如果不达标会有压力吗？
+                        <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-3xl">expand_more</span>
+</summary>
+<div class="px-8 pb-8 text-on-surface-variant text-body-base">
+                        没有业绩考核，也没有最低销售要求。
+                    </div>
+</details>
+<details class="bg-white border border-outline-variant group">
+<summary class="flex justify-between items-center p-8 cursor-pointer font-bold text-primary text-xl list-none">
+                        咖啡的味道如何？
+                        <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-3xl">expand_more</span>
+</summary>
+<div class="px-8 pb-8 text-on-surface-variant text-body-base">
+                        香浓顺口，入口微苦，随后回甘。保留咖啡原有风味，没有明显药草味，是许多咖啡爱好者都能接受的口感。
+                    </div>
+</details>
+<details class="bg-white border border-outline-variant group">
+<summary class="flex justify-between items-center p-8 cursor-pointer font-bold text-primary text-xl list-none">
+                        收入是保证的吗？
+                        <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-3xl">expand_more</span>
+</summary>
+<div class="px-8 pb-8 text-on-surface-variant text-body-base">不是。收入会因个人分享情况、投入时间及团队发展而有所不同。网站中的收入示意仅供参考，不代表实际收益保证。</div>
+</details><details class="bg-white border border-outline-variant group">
+<summary class="flex justify-between items-center p-8 cursor-pointer font-bold text-primary text-xl list-none">
+    <strong>CEO Coffee 一盒多少钱？</strong>
+    <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-3xl">expand_more</span>
+</summary>
+<div class="px-8 pb-8 text-on-surface-variant text-body-base">
+    CEO Coffee <strong>会员价为 RM45/盒</strong>（20包），非会员价为 RM52/盒。 平均每包仅 <strong>RM2.25</strong>。<br><br>
+    📦 <strong>邮费为 RM10</strong>（实际以地区而定）。<br><br>
+    🚚 若您所在地区设有双鹤营运中心或发货中心，可直接到指定地点领取产品，<strong>无需支付邮费</strong>。<br><br>
+    🎁 <strong>单次订单满 RM500</strong> 并寄送至同一地址，可享<strong>免邮优惠</strong>。<br><br>
+    🔄 注册 <strong>FDP自动发货计划</strong> 后，选择每月或双月自动配送，也可享有<strong>免邮福利</strong>（以公司最新政策为准）。
+</div>
+</details></div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-stone-900 text-stone-100 border-t border-stone-800">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 py-24 px-8 max-w-[1200px] mx-auto">
+<div>
+<div class="text-xl font-semibold text-amber-500 mb-8 uppercase">☕&nbsp;111咖啡计划</div>
+<p class="text-stone-400 max-w-sm mb-10 font-['Public_Sans'] text-base tracking-wide">从每天喝的咖啡开始，<br data-start="261" data-end="264">
+建立更健康的生活方式，<br data-start="277" data-end="280">
+并创造额外收入机会。</p><div class=""><br>从消费者开始，而不是从销售开始。</div><p></p><div><br></div><div class="mt-4">
+    
+</div><p></p>
+<p class="text-stone-400 font-['Public_Sans'] text-base tracking-wide">© 2026 111咖啡计划｜Cheryl Hew<br data-start="496" data-end="499">
+从消费者开始，而不是从销售开始。</p>
+</div>
+<div class="grid grid-cols-2 gap-12">
+<div>
+
+<ul class="space-y-5">
+
+
+
+</ul>
+</div>
+<div>
+<a href="https://wa.link/ze2588" target="_blank" class="font-bold mb-8 text-white uppercase text-base flex items-center gap-2 hover:text-amber-500 transition-colors duration-200">
+    <span class="">📱 WhatsApp</span>
+</a>
+<ul class="space-y-5">
+<li class=""><a href="https://www.facebook.com/cheryl.hew.5/" target="_blank" class="hover:text-amber-500 transition-colors duration-200">📘 Cheryl 的 Facebook</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
